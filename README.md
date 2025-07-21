@@ -6,8 +6,7 @@ A full-featured React-based web application where users can browse, review, and 
 
 ## 🔗 Live Demo
 
-[🌐 Live Website](https://your-deployed-site-url.com)  
-*(Replace with your actual deployed link)*
+[🌐 Live Website](https://service-review-tracker.netlify.app/)
 
 ---
 
