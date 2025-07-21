@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+
+
+.alumni-sans a li button p{
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+}
+
+.noto-sans {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.faded-divider {
+  height: 1px;
+  width: 100%;
+  background: linear-gradient(to right, transparent, rgba(83, 80, 80, 0.479), transparent); /* purple tone */
+}
+
+.review-bg{
+  clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 87% 90%, 87% 100%, 77% 90%, 0 90%);
+}
+
+.star-svg{
+  display: inline !important; 
+
+}
