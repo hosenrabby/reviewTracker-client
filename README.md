@@ -1,14 +1,18 @@
 # 🛠️ Service Review Web Application
 
-A full-featured React-based web application where users can browse, review, and manage services. Authenticated users can add their own services and write/edit reviews. This is built using React, React Router v6.4+, Tailwind CSS, and Node.js + MongoDB on the backend.
+An interactive web application for browsing, reviewing, and managing services, complete with animated review displays and secure user authentication.
 
+🔎 Project Overview
+
+ReviewTracker lets users explore services, view detailed information, and share their experiences through reviews. Authenticated users can add new services, edit or delete their submissions, and manage their own reviews. Reviews are displayed dynamically with an engaging animated carousel powered by Framer Motio
+
+🖼 Screenshot
+![Review Tracker — screenshot](./public/Screenshot.png)
 ---
-
 ## 🔗 Live Demo
 
 [🌐 Live Website](https://service-review-tracker.netlify.app/)
 
----
 
 ## 🚀 Features
 
@@ -56,5 +60,7 @@ Pages:
 
 ---
 
-## 🛠️ Project Structure
+📬 Contact
+
+Reach me at: hosenrabby.dev@gmail.com
 
