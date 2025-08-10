@@ -38,7 +38,30 @@ const Navbar = () => {
                 About Us
             </NavLink>
         </li>
-     
+        {
+            user &&
+            <li className={`text-gray-500 hover:text-gray-800 hover:scale-105 transition`}>
+                <NavLink to={'/add-service'} className={({ isActive }) => isActive ? 'text-base-content border border-[#211C2A] rounded-full px-3 py-2' : ''}>
+                    Add Services
+                </NavLink>
+            </li>
+        }
+        {
+            user &&
+            <li className={`text-gray-500 hover:text-gray-800 hover:scale-105 transition`}>
+                <NavLink to={'/my-services'} className={({ isActive }) => isActive ? 'text-base-content border border-[#211C2A] rounded-full px-3 py-2' : ''}>
+                    My Services
+                </NavLink>
+            </li>
+        }
+        {
+            user &&
+            <li className={`text-gray-500 hover:text-gray-800 hover:scale-105 transition`}>
+                <NavLink to={'/my-reviews'} className={({ isActive }) => isActive ? 'text-base-content border border-[#211C2A] rounded-full px-3 py-2' : ''}>
+                    My Reviews
+                </NavLink>
+            </li>
+        }
     </>
 
     return (
