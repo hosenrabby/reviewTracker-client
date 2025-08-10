@@ -63,7 +63,6 @@ const Navbar = () => {
             </li>
         }
     </>
-
     return (
         <>
             <div className={`sticky top-0 z-1000 transition-colors duration-300
@@ -92,7 +91,6 @@ const Navbar = () => {
                                 {links}
                             </ul>
                         </div>
-
                         {
                             !user
                                 ? <div className='flex justify-between items-center gap-3'>
@@ -125,7 +123,6 @@ const Navbar = () => {
                                 </div>
                         }
                         {/* <p>{user&& user.name}</p> */}
-
                     </div>
                 </div>
                 {
