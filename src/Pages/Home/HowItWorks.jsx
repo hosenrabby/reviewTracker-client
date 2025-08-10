@@ -21,9 +21,11 @@ const HowItWorks = () => {
                             disableRotation={false} />
                     </div>
                 </div>
-                <div className=''>
-                    <h1 className='text-center md:text-start text-4xl md:text-5xl mt-30 flex items-center'>How <img className='w-12 h-12 mt-3' src={'/assets/reviewLogo.png'} alt="" /><span className='font-semibold'>reviewTracker</span> &nbsp;works</h1>
-                    <p className='text-xl font-semibold text-gray-600 flex items-center gap-2'>reviewTracker allows users to write, edit, and manage reviews, <br /> helping others make better decisions through honest feedback <br /> and transparent service experiences. <PiCursorClick />
+                <div className='mb-10 w-11/12 md:w-full'>
+                    <div>
+                        <h1 className='text-center md:text-start text-3xl md:text-5xl mt-30 flex items-center'>How <img className='w-12 h-12 mt-3' src={'/assets/reviewLogo.png'} alt="" /><span className='font-semibold'>reviewTracker</span> &nbsp;works</h1>
+                    </div>
+                    <p className='text-xl font-semibold text-gray-600 flex items-center gap-2'>reviewTracker allows users to write, edit, and manage reviews, <br /> helping others make better decisions through honest feedback <br /> and transparent service experiences.
                     </p>
                 </div>
 

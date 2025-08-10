@@ -47,7 +47,7 @@ const OurPartners = () => {
                     delay={400}
                     animateBy="words"
                     direction="top"
-                    className="text-5xl md:text-6xl font-bold mb-8 justify-center mt-6"
+                    className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 justify-center mt-6"
                 />
 
                 <Swiper

@@ -98,7 +98,7 @@ const MyReviews = () => {
                     delay={400}
                     animateBy="words"
                     direction="top"
-                    className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 sm:mb-8 mt-6 justify-center"
+                    className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 sm:mb-8 mt-6 justify-center"
                 />
 
                 <motion.div

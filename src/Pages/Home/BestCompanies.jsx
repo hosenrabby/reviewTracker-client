@@ -13,7 +13,7 @@ const BestCompanies = ({ serviceData }) => {
                 delay={400}
                 animateBy="words"
                 direction="top"
-                className="text-5xl md:text-6xl font-bold mb-8 justify-center"
+                className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 justify-center"
             />
             <div className='w-11/12 md:w-9/12 mx-auto'>
                 <div className='w-full faded-divider'></div>

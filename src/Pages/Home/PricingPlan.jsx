@@ -40,7 +40,7 @@ const PricingPans = () => {
         <>
             <div className='bg-gray-500/10 pt-6 pb-16 mt-8 review-bg'>
                 <div className=" py-12 px-4 max-w-7xl mx-auto">
-                    <motion.h2 className="text-4xl md:text-5xl font-bold text-center" initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} >Take effective Reviews for Your Conmpanies</motion.h2>
+                    <motion.h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center" initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} >Take effective Reviews for Your Conmpanies</motion.h2>
 
                     <div className="text-center mt-4 mb-10 space-x-4">
                         <label>
