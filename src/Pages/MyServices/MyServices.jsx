@@ -106,7 +106,7 @@ const MyServices = () => {
                         {
                             serviceData.length > 0
                                 ?
-                                <div className="overflow-x-auto w-10/12 mx-auto px-10 my-10">
+                                <div className="overflow-x-auto w-11/12 md:w-10/12 mx-auto px-10 my-10">
                                     <table className="table">
                                         <thead>
                                             <tr>
