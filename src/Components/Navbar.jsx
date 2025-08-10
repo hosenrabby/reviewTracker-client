@@ -34,20 +34,11 @@ const Navbar = () => {
             </NavLink>
         </li>
         <li className={`text-gray-500 hover:text-gray-800 hover:scale-105 transition`}>
-            <NavLink to={'/add-service'} className={({ isActive }) => isActive ? 'text-base-content border border-[#211C2A] rounded-full px-3 py-2' : ''}>
-                Add Services
+            <NavLink to={'/about-us'} className={({ isActive }) => isActive ? 'text-base-content border border-[#211C2A] rounded-full px-3 py-2' : ''}>
+                About Us
             </NavLink>
         </li>
-        <li className={`text-gray-500 hover:text-gray-800 hover:scale-105 transition`}>
-            <NavLink to={'/my-services'} className={({ isActive }) => isActive ? 'text-base-content border border-[#211C2A] rounded-full px-3 py-2' : ''}>
-                My Services
-            </NavLink>
-        </li>
-        <li className={`text-gray-500 hover:text-gray-800 hover:scale-105 transition`}>
-            <NavLink to={'/my-reviews'} className={({ isActive }) => isActive ? 'text-base-content border border-[#211C2A] rounded-full px-3 py-2' : ''}>
-                My Reviews
-            </NavLink>
-        </li>
+     
     </>
 
     return (
@@ -72,8 +63,8 @@ const Navbar = () => {
                         </div>
                     </div>
 
-                    <div className="navbar-end space-x-4 w-8/12">
-                        <div className="navbar-start hidden lg:flex border-r-1 border-gray-700">
+                    <div className="navbar-end space-x-4 w-10/12 ">
+                        <div className="navbar-end pe-4 hidden lg:flex border-r-1 border-gray-700">
                             <ul className="menu-horizontal space-x-4">
                                 {links}
                             </ul>

@@ -11,6 +11,7 @@ import MyServices from "../Pages/MyServices/MyServices";
 import MyReviews from "../Pages/MyReviews.jsx/MyReviews";
 import PrivateRoute from "../Private/PrivateRoute";
 import Spinner from "../Components/Spinner";
+import AboutUs from "../Pages/AboutUs/AvoutUs";
 
 
 const Router = createBrowserRouter([
@@ -23,6 +24,7 @@ const Router = createBrowserRouter([
                 element: <Home></Home>
             },
             { path: '/services', element: <Service /> },
+            { path: '/about-us', element: <AboutUs /> },
             {
                 path: '/service-details/:id',
                 loader: ({params}) => fetch(`https://service-provider-sarver.vercel.app/service-details/${params.id}`),
