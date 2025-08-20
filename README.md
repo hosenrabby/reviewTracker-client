@@ -4,7 +4,7 @@ An interactive web application for browsing, reviewing, and managing services, c
 
 🔎 Project Overview
 
-ReviewTracker lets users explore services, view detailed information, and share their experiences through reviews. Authenticated users can add new services, edit or delete their submissions, and manage their own reviews. Reviews are displayed dynamically with an engaging animated carousel powered by Framer Motio
+ReviewTracker lets users explore services, view detailed information, and share their experiences through reviews. Authenticated users can add new services, edit or delete their submissions, and manage their own reviews. Reviews are displayed dynamically with an engaging animated carousel powered by Framer Motion.
 
 🖼 Screenshot
 ![Review Tracker — screenshot](./public/Screenshot.png)
